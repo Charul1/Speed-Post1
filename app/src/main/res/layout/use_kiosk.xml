@@ -12,10 +12,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="350dp"
+            android:layout_gravity="center_vertical"
             android:text="How to Use This Kiosk"
             android:textSize="25sp" />
 
@@ -25,7 +22,7 @@
             android:layout_height="wrap_content"
             android:text="Back"
             android:textSize="25sp"
-            android:layout_marginLeft="250dp"/>
+            android:layout_marginLeft="25pt"/>
 
     </LinearLayout>
 
