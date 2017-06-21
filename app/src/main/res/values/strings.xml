@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Speed-Post</string>
+    <string name="how_to_use_this_kiosk">How to Use This Kiosk</string>
+    <string name="back">Back</string>
+    <string name="hindi">Hindi</string>
+    <string name="english">English</string>
 </resources>

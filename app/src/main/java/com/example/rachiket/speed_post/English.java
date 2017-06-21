@@ -30,7 +30,7 @@ public class English extends AppCompatActivity {
         printQRBut.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(v.getContext(), PrintQR.class);
+                Intent i = new Intent(v.getContext(), GenerateQR.class);
                 startActivity(i);
             }
         });
