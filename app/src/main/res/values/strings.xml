@@ -1,7 +1,33 @@
 <resources>
     <string name="app_name">Speed-Post</string>
-    <string name="how_to_use_this_kiosk">How to Use This Kiosk</string>
-    <string name="back">Back</string>
-    <string name="hindi">Hindi</string>
-    <string name="english">English</string>
+
+    <string name="steps">
+
+		\n<b>This kiosk has been developed to make the process of posting easier and more efficient for the
+citizens of India. Following is how it can be done:</b>
+        \n
+<b><i>1.</i></b>	A QR code needs to be generated, which will contain the information about the address of the
+	sender and the receiver. This QR code can be generated at home using our app (whatever the
+	name of the app is, with its QR code for scanning maybe, so that it becomes more convenient
+	for the user) or it can be printed by this machine by clicking on<i>“Print QR code”</i> .\n
+<b><i>2.</i></b>	Once the QR code is printed and pasted on the letter/parcel, you can go to <i>“Post the
+	letter/parcel”</i>.\n
+<b><i>3.</i></b>	You will have to let the machine scan the QR code first and put the letter into the designated
+	place below. The letter will be locked in the box.\n
+<b><i>4.</i></b>	<i>(Optional)</i> A map to show the destination will be shown for confirmation.\n
+<b><i>5.</i></b>	You can then click on <i>“Make Payment”</i> option and make the payment using our app (again, if
+	that is the way it is supposed to be done) or any other application (maybe note acceptor as
+	well?).\n
+<b><i>6.</i></b>	Once the payment is approved and accepted, the letter will be dropped inside the machine and
+	you are good to go!\n
+
+<b><i>7.</i></b>	Make sure the scanned QR code is the same as that pasted on the letter or you letter
+	will not reach the correct destination.
+
+    </string>
+
+	<string name="how">
+		How to use this Kiosk
+	</string>
+
 </resources>

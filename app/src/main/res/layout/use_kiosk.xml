@@ -4,37 +4,54 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <LinearLayout
-        android:layout_width="match_parent"
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:text="@string/how_to_use_this_kiosk"
-            android:textSize="25sp" />
-
-        <Button
-            android:id="@+id/back_from_use"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/back"
-            android:textSize="25sp"
-            android:layout_marginLeft="25pt"/>
-
-    </LinearLayout>
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="70sp"
+        android:text="@string/how"
+        android:textSize="25sp"
+        android:textStyle="bold|italic" />
 
     <ScrollView
+        android:id="@+id/scrollView1"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-
-        <ImageView
-            android:id="@+id/imageView"
+        <RelativeLayout
+            android:id="@+id/relative1"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/use_kiosk" />
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/linear1"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/steps" />
+
+                <Button
+                    android:id="@+id/back_use_kiosk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="270sp"
+                    android:layout_marginTop="0sp"
+                    android:text="BACK"
+                    android:textSize="12sp" />
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
     </ScrollView>
+
+
 </LinearLayout>

@@ -17,7 +17,7 @@ public class UseKiosk extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.use_kiosk);
 
-        Button backBut = (Button) findViewById(R.id.back_from_use);
+        Button backBut = (Button) findViewById(R.id.back_use_kiosk);
         backBut.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
