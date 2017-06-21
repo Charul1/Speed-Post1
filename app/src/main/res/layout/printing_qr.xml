@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Printing the QR code"
+        android:textSize="25sp" />
+
+    <!--
+     The QR code will be put here
+     -->
+
+    <Button
+        android:id="@+id/hardprint_QR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Print"
+        android:textSize="25sp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:id="@+id/back_from_print"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textSize="25sp"
+        android:layout_gravity="end|bottom"
+        android:layout_marginRight="20dp"/>
+
+</LinearLayout>
