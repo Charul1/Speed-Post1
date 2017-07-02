@@ -6,44 +6,43 @@
 
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textView13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
-        android:layout_marginLeft="70sp"
-        android:text="@string/how"
+        android:text="@string/how_hindi"
         android:textSize="25sp"
         android:textStyle="bold|italic" />
 
     <ScrollView
-        android:id="@+id/scrollView1"
+        android:id="@+id/scrollView11"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <RelativeLayout
-            android:id="@+id/relative1"
+            android:id="@+id/relative11"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
             <LinearLayout
-                android:id="@+id/linear1"
+                android:id="@+id/linear11"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView2"
+                    android:id="@+id/textView12"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/steps" />
+                    android:text="@string/steps_hindi" />
 
                 <Button
-                    android:id="@+id/back_use_kiosk"
+                    android:id="@+id/back_use_kiosk_hindi"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="270sp"
                     android:layout_marginTop="0sp"
-                    android:text="BACK"
+                    android:text="@string/back_hindi"
                     android:textSize="12sp" />
 
 

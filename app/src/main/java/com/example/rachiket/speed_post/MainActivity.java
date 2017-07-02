@@ -23,5 +23,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button hindiBut = (Button) findViewById(R.id.button1);
+        hindiBut.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(v.getContext(),Hindi.class);
+                startActivity(i);
+            }
+        });
+
     }
 }
