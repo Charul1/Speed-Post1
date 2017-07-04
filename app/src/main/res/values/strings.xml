@@ -75,6 +75,14 @@ citizens of India. Following is how it can be done:</b>
 		पत्र / पार्सल पोस्ट करें
 	</string>
 
+	<string name="generateQR_Hindi">
+		QR कोड उत्पन्न करें
+	</string>
+
+    <string name="printing_QR_hindi">
+        QR कोड मुद्रित करना
+    </string>
+
 
 
 </resources>
