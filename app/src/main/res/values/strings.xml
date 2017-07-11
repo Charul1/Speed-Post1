@@ -75,6 +75,10 @@ citizens of India. Following is how it can be done:</b>
 		पत्र / पार्सल पोस्ट करें
 	</string>
 
+	<string name="scan_hin1">
+		1.नीचे दिए गए स्कैनर के अंतर्गत QR कोड स्कैन करें
+	</string>
+
 	<string name="generateQR_Hindi">
 		QR कोड उत्पन्न करें
 	</string>

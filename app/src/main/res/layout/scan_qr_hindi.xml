@@ -2,17 +2,18 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:weightSum="1">
+    android:orientation="vertical">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
+        android:layout_gravity="start"
         android:layout_marginBottom="10dp"
         android:layout_marginTop="10dp"
-        android:text="Printing the QR code"
-        android:textSize="25sp" />
+        android:layout_marginLeft="10dp"
+        android:text="@string/scan_hin1"
+        android:textSize="25sp"
+        android:textColor="#000000"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -31,24 +32,16 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginBottom="10dp"
-                android:text="Sender's address"
+                android:text="शुरुआत की जगह"
                 android:textSize="25sp"
                 android:textColor="#000000"/>
 
             <com.google.android.gms.maps.MapView
-                android:id="@+id/mapView"
+                android:id="@+id/mapView11"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1" />
 
-            <EditText
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginTop="10dp"
-                android:text="Enter address manually"
-                android:textSize="20sp"
-                android:textColor="#000000"/>
 
         </LinearLayout>
 
@@ -63,56 +56,44 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginBottom="10dp"
-                android:text="Receiver's address"
+                android:text="गंतव्य की जगह"
                 android:textSize="25sp"
                 android:textColor="#000000"/>
 
             <com.google.android.gms.maps.MapView
-                android:id="@+id/mapView2"
+                android:id="@+id/mapView12"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1" />
 
-            <EditText
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginTop="10dp"
-                android:text="Enter address manually"
-                android:textSize="20sp"
-                android:textColor="#000000"/>
 
         </LinearLayout>
 
     </LinearLayout>
 
-    <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="71dp"
-        android:orientation="horizontal"
-        android:layout_weight="0.50">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
 
         <Button
-            android:id="@+id/generate_code"
+            android:id="@+id/next11"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_margin="20dp"
-            android:text="Generate the QR code"
+            android:text="अगले"
             android:textSize="25sp" />
 
         <Button
-            android:id="@+id/back_from_generate"
+            android:id="@+id/back_from_scan_hindi"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end"
             android:layout_margin="20dp"
-            android:text="back"
-            android:textSize="25sp"
-            android:layout_below="@+id/generate_code"
-            />
+            android:text="@string/back_hindi"
+            android:textSize="25sp" />
 
-    </RelativeLayout>
-
+    </LinearLayout>
 
 </LinearLayout>
